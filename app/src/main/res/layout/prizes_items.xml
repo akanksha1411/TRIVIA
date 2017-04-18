@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/prizes_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_10">
+
+    <FrameLayout
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/prizes_images"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/transparent"
+            android:contentDescription="@null"
+            android:paddingTop="@dimen/margin_10" />
+        <!--android:src="@drawable/silver_trophy" />-->
+
+        <ImageView
+            android:id="@+id/rank_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@null" />
+        <!--android:src="@drawable/rank_1" />-->
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/prizes_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/prizes_desp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_18" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

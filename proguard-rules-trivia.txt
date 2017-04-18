@@ -1,0 +1,15 @@
+-dontwarn android.support.v4.**
+-keep public class com.google.android.gms.* { public *; }
+-dontwarn com.google.android.gms.**
+
+##---------------Begin: proguard configuration common for all Android apps ----------
+-optimizationpasses 5
+
+-keepclassmembers class net.sourceforge.zbar.ImageScanner { *; }
+-keepclassmembers class net.sourceforge.zbar.Image { *; }
+-keepclassmembers class net.sourceforge.zbar.Symbol { *; }
+-keepclassmembers class net.sourceforge.zbar.SymbolSet { *; }
+
+-keep class com.facebook.** {
+   *;
+}

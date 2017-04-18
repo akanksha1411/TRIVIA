@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/category_layout"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/publisherAdView"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_20"
+        android:weightSum="100">
+
+
+        <TextView
+            android:id="@+id/question_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_weight="23"
+            android:gravity="center_horizontal|center_vertical"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_24" />
+
+
+        <ImageView
+            android:id="@+id/category_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_image_height"
+            android:layout_weight="49"
+            android:contentDescription="@null"
+            android:src="@drawable/default_category" />
+
+
+        <Button
+            android:id="@+id/ready_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/play_btn_box_height"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/play_btn_margin"
+            android:layout_marginRight="@dimen/play_btn_margin"
+            android:layout_marginTop="@dimen/ready_btn_margin_top"
+            android:background="@drawable/rounded_button_yellow"
+            android:text="@string/ready"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_14"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.doubleclick.PublisherAdView
+        android:id="@+id/publisherAdView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ads_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+
+        android:visibility="visible"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.doubleclick.PublisherAdView>
+
+
+</RelativeLayout>

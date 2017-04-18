@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="toi.com.trivia.activities.AnswersActivity$PlaceholderFragment">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_16"
+                card_view:cardBackgroundColor="@color/grey_background"
+                card_view:cardCornerRadius="10dp">
+
+
+                <include layout="@layout/fragment_quiz_questionnaire" />
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/answer_no"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_gravity="top|center|center_horizontal"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@drawable/blank_icon"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="@dimen/font_18"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+</RelativeLayout>

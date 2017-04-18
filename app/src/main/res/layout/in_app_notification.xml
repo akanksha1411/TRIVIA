@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/result_noti_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/notification_bg"
+        android:visibility="gone">
+
+
+        <ImageView
+            android:id="@+id/hide_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@null"
+            android:padding="10dp"
+            android:src="@drawable/cross" />
+
+        <toi.com.trivia.utility.ui.CustomTextViewRegular
+            android:id="@+id/notification_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/hide_notification"
+            android:padding="@dimen/margin_8"
+            android:text=""
+            android:textColor="@color/noti_title"
+            android:textSize="@dimen/font_14" />
+
+        <TextView
+            android:id="@+id/notification_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notification_title"
+            android:padding="@dimen/margin_8"
+            android:text="@string/see_results"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/font_14" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

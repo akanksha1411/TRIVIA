@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/loader_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:visibility="visible"
+        tools:context="toi.com.trivia.activities.TriviaLoader">
+
+        <ImageView
+            android:id="@+id/loading_logo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_image_height"
+            android:contentDescription="@null"
+            android:src="@drawable/default_category" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_24" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/prizes_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blured_bg"
+        android:clickable="true"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:context="toi.com.trivia.activities.Leaderboard">
+
+        <ImageView
+            android:id="@+id/ads_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@null"
+            android:padding="@dimen/margin_20" />
+
+
+        <ImageView
+            android:id="@+id/close_prize_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@null"
+            android:padding="@dimen/margin_20"
+            android:src="@drawable/white_cross" />
+
+
+    </RelativeLayout>
+</FrameLayout>

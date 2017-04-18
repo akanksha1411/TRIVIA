@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a1a1a</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#B3464445</color>
+    <color name="white">#ffffff</color>
+    <color name="white_light">#CCffffff</color>
+    <color name="white_fifty">#80ffffff</color>
+    <color name="black">#1a1a1a</color>
+    <color name="black2">#1b1b1b</color>
+    <color name="yellow">#FFD200</color>
+    <color name="score_blue">#0974FF</color>
+    <color name="yellow_light">#e4cd65</color>
+    <color name="notification_bg">#FFFBD4</color>
+    <color name="green">#26ae00</color>
+    <color name="score_green">#0AC53C</color>
+    <color name="orange">#fdad02</color>
+    <color name="score_red">#FC0C0C</color>
+    <color name="action_bar_background">#1a1a1a</color>
+    <color name="red">#f9001e</color>
+    <color name="dark_red">#b12e2a</color>
+    <color name="grey">#B3464445</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey_background">#393939</color>
+    <color name="archive_grey">#CC424242</color>
+    <color name="fb_blue">#2f4779</color>
+    <color name="footer_grey">#cacaca</color>
+    <color name="archieve_dark_grey">#CC252525</color>
+    <color name="noti_title">#575757</color>
+    <color name="black_transparent">#CC000000</color>
+</resources>

@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_transparent"
+
+    android:clickable="true"
+    tools:context=".utility.ui.WeekCalenderView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_32"
+        android:background="@color/grey_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingTop="@dimen/margin_10"
+            android:text="@string/start_date"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_12" />
+
+
+        <TextView
+            android:id="@+id/selected_month_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingTop="@dimen/margin_5"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_14"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/selected_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingTop="@dimen/margin_5"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_20" />
+
+        <ListView
+            android:id="@+id/months_list"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="@dimen/margin_5"
+            android:background="@color/white"
+            android:divider="@color/white"
+            android:dividerHeight="@dimen/margin_5"
+
+            android:padding="@dimen/margin_10"
+            android:scrollbars="none" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/cancel_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/ok_month"
+                android:padding="@dimen/margin_15"
+                android:text="@string/cancel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16" />
+
+            <TextView
+                android:id="@+id/ok_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/margin_15"
+                android:text="@string/ok"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

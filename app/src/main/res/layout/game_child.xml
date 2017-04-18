@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:splitMotionEvents="false">
+
+    <toi.com.trivia.utility.ui.NonScrollGridView
+        android:id="@+id/archive_quiz_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="@dimen/margin_10"
+        android:numColumns="auto_fit"
+        android:padding="@dimen/margin_10"
+        android:splitMotionEvents="false"
+        android:verticalSpacing="@dimen/margin_10"></toi.com.trivia.utility.ui.NonScrollGridView>
+
+</LinearLayout>

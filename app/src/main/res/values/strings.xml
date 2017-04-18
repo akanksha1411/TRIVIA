@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Trivia</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Footer titles for login trivia-->
+    <string name="prizes">Prizes</string>
+    <string name="faq">FAQs</string>
+    <string name="about_us">T &amp; C</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="login_text_result">Login to view scores and be eligible to win prizes</string>
+    <string name="login_rank">Login to check your ranking &amp; win prizes</string>
+    <string name="login_text2">Test your knowledge &amp; win big</string>
+    <string name="login_text3">Login to view results and be eligible to win prizes</string>
+
+    <!-- verify phone number-->
+
+
+    <!--Dashboard -->
+    <string name="games_played">GAMES PLAYED</string>
+    <string name="weekly_rank">WEEKLY RANK</string>
+    <string name="monthly_rank">MONTHLY RANK</string>
+    <string name="leaderboard">LEADERBOARD</string>
+    <string name="game_archive">GAME ARCHIVE</string>
+    <string name="button_play_new">PLAY NEW GAME</string>
+    <string name="button_play_another">PLAY FROM ARCHIVE</string>
+    <string name="new_game_start_text">NEXT GAME STARTS IN </string>
+    <string name="estimates_ranking">ESTIMATED RANKING IN LAST GAME</string>
+    <string name="archive">Archive</string>
+
+
+    <!--in app notification -->
+    <string name="see_results">SEE RESULTS</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="continue_">Continue</string>
+    <string name="quit">Quit</string>
+    <string name="quit_msg">Are you sure you want to quit the quiz?</string>
+
+
+    <!--Play game section -->
+    <string name="ready">READY</string>
+
+    <string name="no_internet">No internet connection</string>
+
+    <!--Quiz page -->
+    <string name="score">SCORE</string>
+    <string name="time_left">TIME LEFT</string>
+    <string name="ques_no">QUES. NO</string>
+    <string name="category">CATEGORY</string>
+
+    <!--game end -->
+    <string name="game_end_text1">Meanwhile you can play more games from archive</string>
+    <string name="trivia_home">TRIVIA HOME</string>
+    <string name="game_end_text2">Winners &amp; Answers would be \ndisclosed on<!--Results &amp; Answers would be \ndisclosed on--> <!-- The results will be declared at --></string>
+
+    <!-- result declared-->
+    <string name="you_won">You Won!!</string>
+    <string name="you_missed">You Missed!!</string>
+    <string name="game_score">GAME SCORE</string>
+    <string name="game_bonus">GAME BONUS</string>
+    <string name="time_bonus">TIME BONUS</string>
+    <string name="share">SHARE</string>
+    <string name="answers">ANSWERS</string>
+    <string name="title_activity_answers">Answers</string>
+    <string name="title_activity_prizes">Prizes</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_leaderboard">Leaderboard</string>
+    <string name="total_score">Total Score</string>
+    <string name="score_text_archive">Your scores are being accumulated \nfor weekly and monthly prizes</string>
+
+    <!-- leaderboard -->
+    <string name="daily">DAILY</string>
+    <string name="weekly">WEEKLY</string>
+    <string name="monthly">MONTHLY</string>
+    <string name="login_register_text">LOGIN OR REGISTER</string>
+    <string name="login_from_dash">LOGIN OR REGISTER</string>
+
+    <!-- game archive-->
+    <string name="result">RESULT</string>
+    <string name="results">Results</string>
+    <string name="title_activity_navigation_bar">NavigationBarActivity</string>
+    <string name="play">PLAY</string>
+    <string name="close">CLOSE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- google ads baner id-->
+    <!--   <string name="banner_ad_unit_id">/6499/example/banner</string>-->
+    <string name="interstitial_ad_unit_id">/6499/example/interstitial</string>
+    <string name="banner_ad_unit_id">/7176/TOI_App_Android/TOI_APP_AOS_Trivia/TOI_APP_AOS_Trivia_BTF</string>
+
+    <!--<string name="notification_title">The result for today&#8217;s games are out now. Check them to see your ranking.</string>-->
+    <string name="notification_title">Your previous game result is out. Click to check your rank.</string>
+    <!-- calender month text-->
+    <string name="start_date">Start date</string>
+
+    <string name="retry">RETRY</string>
+    <string name="fb_app_id">1768989813314341</string>
+    <string name="server_client_id">586879781966-ha8efjolt67kqbik84uvmuhkt7p03k46.apps.googleusercontent.com</string>
+    <string name="video_buffering">Watch this video to answer \nnext question</string>
+
+    <string name="loading">Please wait while we get the Game ready…</string>
+
+    <string name="faq1">A quiz game launched by TOI which tests your knowledge on a wide range of topics and keep you hooked. There are daily, weekly and monthly prizes to be won.</string>
+    <string name="faq2">Trivia offers two games in a day. Previous games can be played through the archive.</string>
+    <string name="faq3">The amount of time to answer a question varies from quiz to quiz. Average time ranges from 10-12 seconds.</string>
+    <string name="faq4">No, definitely not. The clock is designed to continually run to create a fair angle for all the users.</string>
+    <string name="faq5">Depends on your speed and knowledge. Average time for one quiz is less than 2 minutes.</string>
+    <string name="faq6">There is no notification system. However user can choose to notify by clicking on the notify button from game archive.</string>
+    <string name="faq7">If you correctly answer the questions in daily quizzes, your Leaderboard score will automatically improve as you progress.</string>
+    <string name="faq8">No, the editors upload a randomised question set everyday.</string>
+    <string name="faq9">The state-of-the-art programming used to build Trivia allows us to select our winners from all of the qualified entries.</string>
+    <string name="faq10">The winners will be notified by email after validation.</string>
+    <string name="faq11">You can view Trivia\'s privacy policy.</string>
+    <string name="faq12">A bug or glitch can be reported to our Grievance officer mentioned in Privacy Policy</string>
+    <string name="faq13">Answer the various quizzes correctly, and you will be eligible to win daily rewards.</string>
+    <string name="faq14">Yes, a user has access to all the previous games in the archive.</string>
+    <string name="faq15">No, it is not mandatory to log in to play the quiz but to view the results, leaderboard and claim the prize you will have to log in.</string>
+    <string name="faq16">The user will have to complete all the required daily quizzes in order to be eligible for weekly and monthly prizes.</string>
+
+    <!--//Prizes Array-->
+    <string-array name="prizes_array">
+        <item>HERO KARIZMA</item>
+        <item>HERO IMPULSE</item>
+        <item>SAMSUNG ON7</item>
+        <item>COMMON PRIZE</item>
+    </string-array>
+
+    <string name="prize1"> HERO KARIZMA </string>
+    <string name="prize2"> HERO IMPULSE </string>
+    <string name="prize3"> SAMSUNG ON7 </string>
+    <string name="prize4"> COMMON PRIZE </string>
+    <string name="login_class">com.toi.reader.login.activities.LoginSignUpActivity</string>
+
+    <string name="top_scorer_text">Top scorer</string>
+    <string name="winning_text">winning</string>
+    <string name="first_scorer_text">1st runner\'s up</string>
+    <string name="second_scorer_text">2nd runner\'s up</string>
+    <string name="default_zero_string">0</string>
+    <string name="rank">RANK</string>
+    <string name="name">NAME</string>
+    <string name="score_string">SCORE</string>
+    <string name="permission_string">To start playing please provide permission to access phone state</string>
+    <string name="semi_colon">:</string>
+    <string name="set_permission">Set permission</string>
+    <string name="quiz_caps">QUIZ </string>
+    <string name="result_email_text">We will reach out to you on</string>
+    <string name="GTM_CONTAINER_ID">GTM-KFLXMM</string>
+    <string name="Correct_ans">CORRECT ANSWERS:</string>
+    <string name="title_activity_navigation">Navigation</string>
+</resources>

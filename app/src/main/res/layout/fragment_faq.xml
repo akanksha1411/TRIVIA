@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <com.github.androidprogresslayout.ProgressLayout xmlns:progressLayout="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        progressLayout:progress="false"
+        progressLayout:progressBackground="@color/black">
+
+        <ExpandableListView
+            android:id="@+id/faq_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:groupIndicator="@drawable/group_indicator2"
+            android:visibility="visible"></ExpandableListView>
+    </com.github.androidprogresslayout.ProgressLayout>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/leaderboard_box"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/leaderboard_height"
+    android:background="@color/grey_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/half_round_yellow">
+
+        <TextView
+            android:id="@+id/rank_no"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/half_round_greydark"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_5"
+            android:text="@string/default_zero_string"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_14" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_24">
+
+        <ImageView
+            android:id="@+id/trophy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_5"
+            android:background="@color/transparent"
+            android:contentDescription="@null" />
+
+        <toi.com.trivia.utility.ui.CircularImageView
+            android:id="@+id/user_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@color/transparent"
+            android:src="@drawable/default_avatar" />
+
+        <TextView
+
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_16" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/user_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center_vertical|right"
+        android:paddingRight="@dimen/margin_10"
+        android:text="@string/default_zero_string"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_14" />
+
+</LinearLayout>

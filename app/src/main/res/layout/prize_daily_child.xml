@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toi.com.trivia.utility.ui.NonScrollListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/single_day_prizes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/archieve_dark_grey"
+    android:padding="@dimen/margin_10"
+    android:dividerHeight="0dp"
+    android:divider="@color/transparent"
+    android:textColor="@color/white"
+    android:textSize="@dimen/font_16">
+
+</toi.com.trivia.utility.ui.NonScrollListView>
